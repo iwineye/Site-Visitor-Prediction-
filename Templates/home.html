@@ -1,0 +1,23 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> SUBSCRIBER PREDICTION </h1><br>
+
+        <h2>Enter the details of potential customer</h2>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> DAILY TIME SPENT ON PLATFORM :  <input type="text", name='a', placeholder="enter"> <br><br>
+            AGE :  <input type="text", name='b', placeholder="enter "> <br><br>
+            AREA INCOME:  <input type="text", name='c', placeholder="enter "> <br><br>
+            DAILY INTERNET USAGE: <input type="text", name='d', placeholder="enter"> <br><br><br>
+            MALE: <input type="text", name='e', placeholder=" 1 if yes 0 if no"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+        <img src='static\img3.PNG' alt="Waiting">
+        
+    </center>
+
+    </body>
+</html>
